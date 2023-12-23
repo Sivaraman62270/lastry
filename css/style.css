@@ -1,0 +1,147 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color:white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   
+    
+}
+ul li{
+    display: inline-block;
+    margin:0px 20px;
+}
+.content{
+    background-color: aliceblue;
+    margin: 0px 30px;
+    padding: 10px 10px 70px 10px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+   
+    text-transform: uppercase;
+    margin-left:100px ;
+    width: 30%;
+}
+.para5{
+    margin-left: 100px;
+    width: 45%;
+    line-height: 30px;
+}
+.content img{
+    width: 480px;
+    height: 300px;
+    position: absolute;
+    right: 35px;
+    top: 80px;
+}
+.button1{
+  margin-left: 100px;
+  width: 150px;
+  height: 40px;
+  background-color:orange ;
+  border: 1px solid orange;
+  color: white;
+}
+.button2{
+    margin-left: 10px;
+    width: 150px;
+    height: 40px;
+    background-color:aqua ;
+    border: 1px solid aqua;
+    color: white;
+}
+.button1:hover{
+    background-color: white;
+    color: orange;
+    transition-duration: .3s;
+}
+.button2:hover{
+    background-color: white;
+    color: aqua;
+    transition-duration: .3s;
+}
+.head1{
+    margin:100px 0px 0px 100px ;
+}
+.para1{
+    font-size: 16px;
+   margin:10px 0px 0px 100px ;
+}
+.image img{
+    width: 150px;
+    height: 130px;
+    
+}
+div.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 80px 50px 50px 100px;
+    gap:70px 20px;
+}
+.img{
+    padding: 1rem;
+    text-align: center;
+    background-color:rgb(242, 243, 244);
+    width: 200px;
+    height: 250px;
+}
+.image p{
+   width: 300px;
+   margin: 70px 5px 5px -50px;
+}
+.img i{
+    font-size: 15px;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 70px;
+}
+
+section{
+    background-color: aliceblue ;
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    margin: 100px 50px 50px 100px; 
+    padding: 50px 0px;
+}
+
+.about-img img{
+    width: 450px;
+    height: 290px;  
+}
+
+section .para2{
+    width: 400px;
+    font-size: 16px;
+}
+.button3{
+    margin-left: 100px;
+    width: 160px;
+    height: 40px;
+    background-color: aqua;
+    border: 1px solid aqua;
+    color: white;
+}
+.button3:hover{
+    background-color: white;
+    color: aquamarine;
+    transition-duration: .3s;
+}
+h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
